@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+/*Body*/
+body {
+    background-color: white;
+}
+/*Main*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Header*/
+#main-header {
+    height: 50px;
+    border: solid black 2px;
+}
+/*Side*/
+aside {
+    flex: 2;
+    border: solid black 2px;
+    margin: 10px auto;
+    padding: 10px;
+    justify-content: center;
+}
+/*Div Circle*/
+.circle {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: white;
+}
+/*Container Section*/
+.container {
+    flex: 2;
+    margin: 10px auto;
+    border: solid black 2px;
+}
+.card-contents {
+    padding: 5px 5px 30px 5px;
+}
+/*Form Section*/
+form {
+    width: 100%;
+    display: block;
+}
+/*Labels for form Inputs*/
+label {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0.625rem 0 0.25rem 0.3rem;
+}
+/*Label Inputs*/
+#name,
+#title,
+#content {
+    padding: 0.75rem;
+    width: 100%;
+    margin: 0.625rem 0;
+    font-size: 1.2rem;
+    border: 2px solid #484848;
+    color: #1a1a1a;
+    box-sizing: border-box;
+    display: block;
+}
+/*Submit Button*/
+button {
+    padding: 0.75rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: 2px solid #484848;
+    background-color: black;
+    color: white;
+    display: block;
+    width: 100%;
+}
