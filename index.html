@@ -10,48 +10,65 @@
 </head>
 <!--Body-->
 <body>
-    <!--Main Page-->
-    <!--Main Header-->
-    <header id="main-header"></header>
-    <!--Page Heading Section-->
-    <main>
-        <aside class="heading">
-            <!--Main Heading inside the circle-->
-            <div class="circle">
-                <h2>My First Blog</h2>
+    <div class="container dark">
+        <!--Main Page-->
+        <!--Main Header-->
+        <header id="main-header">
+            <!--Theme switcher button-->
+            <div class="row toggle">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox-label">
+                    <!--HTML code for moon icon-->
+                    <!--Reference: https://fontawesome.com/v5/icons/moon?f=classic&s=solid-->
+                    <i class="fas fa-moon"></i>
+                    <!--HTML code for sun icon-->
+                    <!--REference: https://fontawesome.com/v5/icons/sun?f=classic&s=solid-->
+                    <i class="fas fa-sun"></i>
+                    <span class="ball"></span>
+                </label>
             </div>
-        </aside>
-        <!--Content Section: To Enter the blog details-->
-        <div class="container">
-            <div class="card-contents">
-                <!--Heading for the form-->
-                <h1>What's on your mind?</h1>
-                <!--Form-->
-                <form>
-                    <!--Form Inputs-->
-                    <!--User Name-->
-                    <div class="form-field">
-                        <label for="name">Username:</label>
-                        <input type="text" placeholder="Username" id="name" />
-                    </div>
-                    <!--Title-->
-                    <div class="form-field">
-                        <label for="title">Title:</label>
-                        <input type="text" placeholder="Title" id="title" />
-                    </div>
-                    <!--Content-->
-                    <div class="form-field">
-                        <label for="content">Content:</label>
-                        <input type="text" placeholder="Content" id="content" style="height: 100px" />
-                    </div>
-                    <!--Submit Button-->
-                    <button id="submit">Submit</button>
-                </form>
+            <!--
+        <label class="switch col">
+            <input type="checkbox" id="theme-switcher">
+            <span class="slider round"></span>
+          </label>
+          -->
+        </header>
+        <!--Page Heading Section-->
+        <main>
+            <aside class="heading">
+                <!--Main Heading inside the circle-->
+                <div class="circle">
+                    <h2>My First Blog</h2>
+                </div>
+            </aside>
+            <!--Content Section: To Enter the blog details-->
+            <div class="input-container">
+                <div class="card-contents">
+                    <h1>What's on your mind?</h1>
+                    <form>
+                        <div class="form-field">
+                            <label for="name">Username:</label>
+                            <input type="text" placeholder="Username" id="name" />
+                        </div>
+                        <div class="form-field">
+                            <label for="title">Title:</label>
+                            <input type="text" placeholder="Title" id="title" />
+                        </div>
+                        <div class="form-field">
+                            <label for="content">Content:</label>
+                            <input type="text" placeholder="Content" id="content" style="height: 100px" />
+                        </div>
+                        <button id="submit">Submit</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </main>
-    <!--JS files-->
+        </main>
+    </div>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/form.js"></script>
+    <!--Link to my Fontawsome Toolkit-->
+    <!--Free account with readymade code for icons-->
+    <script src="https://kit.fontawesome.com/ba420aa2e1.js" crossorigin="anonymous"></script>
 </body>
 </html>
