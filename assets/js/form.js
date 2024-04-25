@@ -19,14 +19,16 @@ submitButton.addEventListener('click', function (event) {
         title: titleInput.value,
         content: contentInput.value.trim(),
     };
-    if (blogEntry.userName === '') {
-        displayMessage('error', 'Username cannot be blank');
-    } else if (blogEntry.title === '') {
-        displayMessage('error', 'Title cannot be blank');
-    } else if (blogEntry.content === '') {
-        displayMessage('error', 'Content cannot be blank');
-    } else {
-        displayMessage('success', 'Blog post added successfully');
-        localStorage.setItem('blogEntry', JSON.stringify(blogEntry));
-    }
+    saveFormData(blogEntry);
+    openBlogPage();
 });
+//Function to save blog enteries to the local storage
+function saveFormData(blogEntry) {
+    const storedFormData = JSON.parse(localStorage.getItem('blogEntry')) || [];
+    storedFormData.push(blogEntry);
+    localStorage.setItem('blogEntry', JSON.stringify(storedFormData));
+};
+//write a function to open the blog page when submit button is pressed
+openBlogPage(blogEntry){
+    window.location.href = "file:///C:/Users/anira/Desktop/Bootcamp/Repo/Challenges/challenge4/blog.html";
+};
