@@ -29,6 +29,6 @@ function saveFormData(blogEntry) {
     localStorage.setItem('blogEntry', JSON.stringify(storedFormData));
 };
 //write a function to open the blog page when submit button is pressed
-openBlogPage(blogEntry){
-    window.location.href = "file:///C:/Users/anira/Desktop/Bootcamp/Repo/Challenges/challenge4/blog.html";
+function openBlogPage(){
+    window.location.href = "blog.html";
 };

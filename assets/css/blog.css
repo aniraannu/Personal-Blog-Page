@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+/*Body*/
+body {
+    background-color: white;
+}
+/*Main*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Header*/
+#main-header {
+    height: 50px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: end;
+}
+/*Return Button*/
+.returnButton {
+    text-align: center;
+    width: 100px;
+    height: 30px
+}
+.blog-container{
+    display: flex;
+    justify-content: flex-start;
+}
+/*footer*/
+footer {
+    margin: 1.5rem;
+    text-align: center;
+    border: solid black 2px;
+    margin: 0;
+  }
