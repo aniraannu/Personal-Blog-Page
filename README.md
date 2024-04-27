@@ -43,7 +43,6 @@ The following animation demonstrates the application functionality:
 ## Help
 
 none
-```
 
 ## Authors
 
