@@ -38,7 +38,7 @@ The following animation demonstrates the application functionality:
 
 ### Executing program
 
-* User can directly go to the GitHUb page using the below link: 
+* User can directly go to the GitHUb page using the below link: https://aniraannu.github.io/Personal-Blog-Page/
 
 ## Help
 
