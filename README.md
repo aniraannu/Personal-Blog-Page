@@ -47,7 +47,7 @@ none
 ## Authors
 
 Anira Raveendran  
-ex. [@aniraannu](https://github.com/aniraannu)
+[@aniraannu](https://github.com/aniraannu)
 
 ## Version History
 * 0.1
