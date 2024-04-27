@@ -30,8 +30,7 @@ The following animation demonstrates the application functionality:
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* none
 
 ### Installing
 
@@ -43,9 +42,7 @@ The following animation demonstrates the application functionality:
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
+none
 ```
 
 ## Authors
