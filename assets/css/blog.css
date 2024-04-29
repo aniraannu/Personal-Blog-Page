@@ -12,10 +12,25 @@ main {
 }
 /*Header*/
 #main-header {
-    height: 50px;
+    height: 70px;
     border: solid black 2px;
     display: flex;
-    justify-content: end;
+}
+/*Heading*/
+h1{
+    height: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    width:85%;
+    align-items: center;
+    height:50px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 /*Return Button*/
 .returnButton {
@@ -23,13 +38,18 @@ main {
     width: 100px;
     height: 30px
 }
-.blog-container{
+/*.blog-container{
     display: flex;
     justify-content: flex-start;
+}*/
+/*Div for each blog entry*/
+.blog-Section{
+display: block;
+width: 100%;
+border: solid black 2px;
 }
 /*footer*/
 footer {
-    margin: 1.5rem;
     text-align: center;
     border: solid black 2px;
     margin: 0;

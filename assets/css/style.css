@@ -6,6 +6,7 @@
     opacity: 0;
     position: absolute;
 }
+
 /*Style the label*/
 .checkbox-label {
     background-color: #111;
@@ -19,14 +20,17 @@
     justify-content: space-between;
     align-items: center;
 }
+
 /*gave color to the moon icon*/
 .fa-moon {
     color: #f1c40f;
 }
+
 /*gave color to the sun icon*/
 .fa-sun {
     color: #f39c12;
 }
+
 /*toggle bar-ball*/
 .checkbox-label .ball {
     background-color: #fff;
@@ -38,19 +42,22 @@
     border-radius: 50%;
     transition: transform 0.2s linear;
 }
+
 /*define the toggle action*/
 .checkbox:checked+.checkbox-label .ball {
     transform: translateX(24px);
 }
+
 /*Dark Mode*/
 .dark {
-    background-color:#243447;
+    background-color: #243447;
     height: 100vh;
     color: #bebebe
-  }
-  /*Light Mode*/
-  .light {
+}
+
+/*Light Mode*/
+.light {
     background-color: #f0ead6;
     color: black;
     height: 100vh;
-  }
+}
