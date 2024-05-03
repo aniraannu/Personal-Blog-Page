@@ -38,9 +38,9 @@ function createBlogSection(blog) {
     //Adding class to the div (secEl) to style it in the css
     secEl.setAttribute('class', 'blog-Section');
     //Adding styles to the title/ h2 element
-    titleEl.setAttribute('styles','font-size:25px; text-decoration:underline;');
+    titleEl.setAttribute('style','font-size:25px; text-decoration:underline;');
     //Styling Content to be italic
-    p2El.setAttribute('styles', 'fontStyle:italic; font-size:15px;');
+    pEl.setAttribute('style', 'font-style:italic; font-size:15px;');
 }
 //Calling the function 
 init();
